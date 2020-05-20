@@ -1,0 +1,257 @@
+body {
+  margin: 50px;
+  padding: 0;
+  font-size: 14px;
+}
+.a {
+  background-color: #17bda7;
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+.logo1 {
+  width: 10%;
+}
+
+.logo2 {
+  width: 5%;
+}
+nav , ul , li,a {
+  list-style: none;
+  display: inline-block;
+  word-spacing: 23px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.top {
+  display: flex;
+  color:white;
+  background-color:#161929;
+}
+.ag1 {
+  flex: 1.6;
+  text-align: center;
+}
+.ag2 {
+  flex: 1.5;
+}
+ .b {
+   text-align: center;
+ }
+.pics {
+  width: 25%;
+  padding:22px;
+  border-radius: 35px;
+}
+.c {
+  text-align: center;
+  background-color: #17bda7;
+  color: #ffffff;
+  font-size: 15px;
+  height: 700px;
+}
+.space {
+  margin-top: 40px;
+}
+.about {
+  display: flex;
+  text-align: left;
+  line-height: 25px;
+
+}
+.about1 {
+  margin-left: 300px;
+  margin-right: 20px;
+}
+.about2 {
+  margin-right: 300px;
+}
+button {
+  border: 2px solid white;
+  border-radius: 4px;
+  height: 40px;
+  width: 150px;
+  background-color: #17bda7;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  /* color: #3b3c40; */
+}
+form {
+  margin-left: 250px;
+}
+.yes {
+  text-align: center;
+}
+input {
+  border: none;
+  border-bottom: 2px solid #a9a9ab;
+  width: 80%;
+}
+textarea {
+  border: none;
+  border-bottom: 2px solid #a9a9ab;
+  resize: none;
+  width: 80%;
+  display: block;
+}
+h3 {
+  color: #a9a9ab;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.button1{
+  width: 10%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: #181838;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.one h4 {
+  color: white;
+  font-weight: 400;
+}
+.two h4 {
+  color: white;
+  font-weight: 400;
+  word-spacing: 4px;
+}
+.three h4 {
+  color: white;
+  font-weight: 400;
+  word-spacing: 4px;
+}
+.fa {
+  width: 10%;
+}
+.flexone {
+  flex: 1;
+  margin-top: 25px;
+}
+.final {
+  text-align: center;
+  margin-top: -19px;
+  height: 50px;
+  background-color: #12171f
+}
+.final p {
+  padding-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .about1 {
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  .about2 {
+    margin-right: 50px;
+  }
+  .c {
+    height: 600px;
+  }
+  form {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .about1 {
+    margin-left: 105px;
+    margin-right: 20px;
+  }
+  .about2 {
+    margin-right: 105px;
+  }
+  .c {
+    height: 900px;
+  }
+  form {
+    margin-left: 50px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  body {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 370px;
+  }
+  .logo1 {
+    width: 30%;
+  }
+  .logo2 {
+    width: 20%;
+  }
+  .pics {
+    width: 75%;
+    padding:22px;
+    border-radius: 35px;
+  }
+  .about {
+    display: flex;
+    text-align: left;
+    line-height: 20px;
+    flex-direction: column;
+  }
+  .about1 {
+    margin-left: 5px;
+    text-align: center;
+
+  }
+  .about2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+
+  }
+  .c {
+    height: 1100px;
+    text-align: center;
+  }
+  .button1{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  .a {
+    height: 400px;
+  }
+  .top {
+    width: 370px;
+  }
+  .footer {
+    background-color: #181838;
+    display: flex;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+  }
+  .three p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+
+}
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 14px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
